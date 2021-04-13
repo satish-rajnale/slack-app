@@ -4,3 +4,6 @@
 
 ### 1. Login Page:
 ![login](https://user-images.githubusercontent.com/76589507/114580354-677cde80-9c9c-11eb-8ba9-d96b6c1ea4b6.PNG)
+
+### 2. Home/Chat screen:
+![2](https://user-images.githubusercontent.com/76589507/114580588-9a26d700-9c9c-11eb-90ab-a2d097352346.PNG)
