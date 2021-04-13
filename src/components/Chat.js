@@ -54,8 +54,8 @@ useEffect(() => {
             <ChatMessages>
                 {roomMessage?.docs.map((doc) => {
                     const {message, timestamp, user , userImg} = doc.data();
-
-                    return (
+                    if(timestamp!==undefined){
+                   return (
                         <Messages
                         key={doc.id}
                         message={message}
@@ -63,8 +63,11 @@ useEffect(() => {
                         user={user}
                         userImg={userImg}/>
                     )
+                   }else{
+                       return null;
+                   }
                 })}
-
+            
                 <ChatBottom ref={chatRef}/>
             </ChatMessages>
             <ChatInput chatRef={chatRef} channelName={roomDetails?.data().name} channelId={roomId}/>
