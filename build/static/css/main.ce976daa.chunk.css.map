@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA,EACE,QAAS,CACT,6BAA+B,CAC/B,cAAe,CACf,mBAAoB,CACpB,eACF","file":"main.ce976daa.chunk.css","sourcesContent":["*{\r\n  margin: 0;\r\n  font-family: 'Lato', sans-serif;\r\n  font-size: 15px;\r\n  line-height: 1.46668;\r\n  font-weight: 400;\r\n}\r\n"]}
