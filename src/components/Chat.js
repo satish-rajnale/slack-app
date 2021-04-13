@@ -1,4 +1,5 @@
 import { InfoOutlined, Message, StarBorderOutlined } from '@material-ui/icons';
+import AssistantOutlinedIcon from '@material-ui/icons/AssistantOutlined';
 import React, { useRef , useEffect} from 'react'
 import { useSelector } from 'react-redux';
 import styled from 'styled-components';
@@ -40,7 +41,7 @@ useEffect(() => {
             <Header>
                 <HeaderLeft>
                     <h4>#{roomDetails?.data().name}</h4>
-                    <StarBorderOutlined/>
+                    <AssistantOutlinedIcon/>
                 </HeaderLeft>
                 <HeaderRight>
                     <p>
@@ -48,6 +49,7 @@ useEffect(() => {
                     </p>
                 </HeaderRight>
             </Header>
+            
 
             <ChatMessages>
                 {roomMessage?.docs.map((doc) => {
@@ -94,9 +96,12 @@ const HeaderLeft = styled.div`
         display:flex;
         margin-right:10px;
     }
-    > h4 > .MuiSvgIcon-root{
-        margin-left:20px;
-        font-size:18px;
+    > .MuiSvgIcon-root{
+        margin-left:8px;
+        font-size:22px;
+        :hover{
+            cursor: pointer;
+        }
     }
 `;
 
@@ -109,7 +114,10 @@ const HeaderRight = styled.div`
 
     > p > .MuiSvgIcon-root{
         margin-right:  5px !important ;
-        font-size:16px;
+        font-size:20px;
+        :hover{
+            cursor: pointer;
+        }
     }
 `;
 

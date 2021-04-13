@@ -56,7 +56,10 @@ export default App;
 const AppBody = styled.div`
 display:flex;
 height: 100vh;
-
+font-family: 'Lato', sans-serif;
+font-size: 15px;
+    line-height: 1.46668;
+    font-weight: 400;
 `;
 
 const AppLoading = styled.div`
