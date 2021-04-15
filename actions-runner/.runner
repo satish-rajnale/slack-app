@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 21,
+  "agentName": "slack-app",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelines.actions.githubusercontent.com/CQCVGENgUNfNOfGY9xgiIRKNcekXgRw974lYCMcr0cgJZVFxJL",
+  "gitHubUrl": "https://github.com/satish-rajnale/slack-app",
+  "workFolder": "slack-app"
+}
