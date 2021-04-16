@@ -11,4 +11,6 @@ A authentication sign in is required here to access the app. But dont worry cuz 
  - After a successful login user is routed on the Dashboard/ Home page.
  - User can select any of the mentiond channels or create a new one by simply clicking `Add Channel` option.
  
+  > This image shows a view inside the channel #react-community.
+  
 ![2](https://user-images.githubusercontent.com/76589507/114580588-9a26d700-9c9c-11eb-90ab-a2d097352346.PNG)
