@@ -8,5 +8,7 @@ A authentication sign in is required here to access the app. But dont worry cuz 
 ![login](https://user-images.githubusercontent.com/76589507/114580354-677cde80-9c9c-11eb-8ba9-d96b6c1ea4b6.PNG)
 
 ### 2. Home/Chat screen:
- - After a successful login user is routed on the dashboard/ Home page.
+ - After a successful login user is routed on the Dashboard/ Home page.
+ - User can select any of the mentiond channels or create a new one by simply clicking `Add Channel` option.
+ 
 ![2](https://user-images.githubusercontent.com/76589507/114580588-9a26d700-9c9c-11eb-90ab-a2d097352346.PNG)
