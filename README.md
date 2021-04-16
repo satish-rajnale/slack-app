@@ -10,7 +10,8 @@ A authentication sign in is required here to access the app. But dont worry cuz 
 ### 2. Home/Chat screen:
  - After a successful login user is routed on the Dashboard/ Home page.
  - User can select any of the mentiond channels or create a new one by simply clicking `Add Channel` option.
- 
+   - Once the user types a message the message a saved on the firestore and then rendered on the screen with the time, message, user-name and  profile image.
+   
   > This image shows a view inside the channel #react-community.
   
 ![2](https://user-images.githubusercontent.com/76589507/114580588-9a26d700-9c9c-11eb-90ab-a2d097352346.PNG)
